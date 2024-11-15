@@ -1,0 +1,26 @@
+Jeu de Réaction avec Arduino et Pygame
+
+🚀 Description du projet
+
+Bienvenue dans le "Jeu de Réaction" ! Ce projet combine Python, Pygame et Arduino pour créer un jeu où les joueurs doivent réagir rapidement en appuyant sur une touche chaque fois
+qu'une lettre apparaît à l'écran. Les temps de réaction sont enregistrés et sauvegardés dans un fichier CSV pour que tu puisses analyser tes performances (et celles des autres !) plus tard. 
+
+Le jeu se contrôle avec un clavier et peut être mis en pause à l’aide d’un bouton connecté à un Arduino.
+
+ 🔧 Prérequis
+
+Avant de lancer le jeu, assure-toi d'avoir Python installé sur ton ordinateur ainsi que les bibliothèques nécessaires.
+
+### Bibliothèques Python requises :
+- `pygame` : Pour l'interface graphique du jeu.
+- `pyserial` : Pour la communication avec l'Arduino.
+- `matplotlib` : Pour créer des graphiques à partir des résultats enregistrés.
+- `csv` : Pour lire et écrire dans un fichier CSV.
+
+### Installation des dépendances :
+
+1. Si ce n'est pas déjà fait, installe Python 3 sur ton ordinateur.
+2. Utilise `pip` pour installer les bibliothèques nécessaires :
+
+```bash
+pip install pygame pyserial matplotlib
